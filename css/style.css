@@ -1,21 +1,81 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+* {
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
-
-header{
-    background-color: #370707;
-    color: white;
-    text-align: center;
-    padding: 1em;
+body {
+    font-family: Arial, sans-serif !important;
+    background-color: #c4a9a9 !important;
 }
 
-.img-perfil{
-   width: 10%;
-   border-radius: 50%;
+
+header {
+    background-color: #370707 !important;
+    color: white !important;
+    text-align: center !important;
+    padding: 1em !important;
+}
+
+.img-perfil {
+    width: 10% !important;
+    border-radius: 50% !important;
+}
+
+footer {
+    background-color: #370707 !important;
+    color: white !important;
+    text-align: center !important;
+    padding: 1em !important;
+}
+
+.conteudo {
+    background-color: white !important;
+    padding: 2em !important;
+    margin-top: 1em !important;
+    border-radius: 10px !important;
+    width: 100% !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: black !important;
+
+}
+
+.principal {
+    margin-left: 25% !important;
+    margin-right: 25% !important;
+    margin-top: 1% !important;
+    margin-bottom: 15% !important;
+}
+
+.img-icone {
+    width: 80% !important;
+}
+
+.txt-icone {
+    font-size: 300% !important;
+}
+
+@media (min-width: 200px) and (max-width: 768px) {
+    .img-icone {
+        width: 100% !important;
+    }
+
+    .txt-icone {
+        font-size: 150% !important;
+    }
+
+    .conteudo {
+        background-color: white !important;
+        padding: 1em !important;
+        margin-top: 2em !important;
+        border-radius: 10px !important;
+        width: 130%;
+    }
+
+
+
 }
